@@ -33,8 +33,9 @@ Y_t & = \phi Y_{t-1} + e_t \label{AR1} \\
 Y_t & = \phi_1 Y_{t-1} + \phi_2 Y_{t-2} + e_t \label{AR2} \\
 \intertext{5. ARMA(1,1) - Autoregressive Moving Average Process of Order 1,1}
 Y_t & = \phi Y_{t-1} + e_t - \theta e_{t-1} \label{ARMA} 
+\intertext{Assumptions for all processes above:}
+e_t \sim NID(0,1) \label{ass1} 
 \end{align}
-Assumptions: $e_t \sim NID(0,1)$ for all processes. \label{ass1} 
 
 \subsection{Statistical Properties}
 
